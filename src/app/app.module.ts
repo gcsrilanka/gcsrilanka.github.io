@@ -16,6 +16,7 @@ import { PricingComponent } from './components/common/pricing/pricing.component'
 import { CounterComponent } from './components/common/counter/counter.component';
 import { ServicesComponent } from './components/common/services/services.component';
 import { FeatureComponent } from './components/common/feature/feature.component';
+import { PromoComponent } from './components/common/promo/promo.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FeatureComponent } from './components/common/feature/feature.component'
     PricingComponent,
     CounterComponent,
     ServicesComponent,
-    FeatureComponent
+    FeatureComponent,
+    PromoComponent
   ],
   imports: [
     BrowserModule,
