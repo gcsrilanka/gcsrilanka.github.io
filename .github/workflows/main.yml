@@ -2,9 +2,7 @@ name: CI
 
 on: [push]
 
-env:
-  AZURE_WEBAPP_NAME: github-actions-spa
-  AZURE_WEBAPP_PACKAGE_PATH: './dist/angulargithubaction'
+env:  
   NODE_VERSION: '10.x'
 
 jobs:
@@ -12,16 +10,21 @@ jobs:
 
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
     - name: Use Node.js ${{ env.NODE_VERSION }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ env.NODE_VERSION }}
+
+    - uses: actions/checkout@v1
+
+    - name: Install
+       run: |
+          npm install
+          npm run-script build -- --prod
+
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@3.2.1
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BASE_BRANCH: master
-        BRANCH: master
+        BRANCH: deployment
         FOLDER: dist/github-community-sl
-        BUILD_SCRIPT: npm install && npm run build -- --prod
