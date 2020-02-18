@@ -1,17 +1,33 @@
-name: CI
-on: [push]
-jobs:
-  build-and-deploy:
+name: CI/CD
+on:
+  push:
+    branches:
+      - master
+jobs:  
+  deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2 
-      with:
-        persist-credentials: false
+          
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+        
+      - name: Install
+        run: |
+          npm install
+          npm run-script build
+          
+      - name: Install SSH Client
+      - uses: webfactory/ssh-agent@v0.2.0 # This step installs the ssh client into the workflow run. There's many options available for this on the action marketplace.
+        with:
+          ssh-private-key: ${{ secrets.ACCESS_TOKEN  }}
 
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: deployment # The branch the action should deploy to.
-        FOLDER: . # The folder the action should deploy.
+      - name: Build and Deploy Repo
+        uses: JamesIves/github-pages-deploy-action@releases/v3-test
+        with:
+          BASE_BRANCH: master   
+          BRANCH: deployment
+          FOLDER: build
+          CLEAN: true
+          SSH: true # SSH must be set to true so the deploy action knows which protocol to deploy with.
