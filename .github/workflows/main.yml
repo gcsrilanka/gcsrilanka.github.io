@@ -10,17 +10,25 @@ jobs:
 
     runs-on: ubuntu-18.04
     steps:
-    - name: Use Node.js ${{ env.NODE_VERSION }}
+    - uses: actions/checkout@v1
+    - name: Use Node.js 8.15.1
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ env.NODE_VERSION }}
+        node-version: 8.15.1
 
-    - uses: actions/checkout@v1
 
-    - name: Install
-       run: npm install
-       run: npm run-script build -- --prod         
-          
+    # steps:
+    # - name: Use Node.js ${{ env.NODE_VERSION }}
+    #   uses: actions/setup-node@v1
+    #   with:
+    #     node-version: ${{ env.NODE_VERSION }}
+
+    # - uses: actions/checkout@v1
+
+    # - name: Install
+    #    run: |
+    #       npm install
+    #       npm run-script build -- --prod
 
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@3.2.1
@@ -28,3 +36,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: deployment
         FOLDER: .
+        BUILD_SCRIPT: npm install && npm run build -- --prod
