@@ -18,9 +18,9 @@ jobs:
     - uses: actions/checkout@v1
 
     - name: Install
-       run: | 
-          npm install
-          npm run-script build -- --prod
+       run: npm install
+       run: npm run-script build -- --prod         
+          
 
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@3.2.1
