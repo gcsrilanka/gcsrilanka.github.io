@@ -17,6 +17,6 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: master
-        BRANCH: master
+        BRANCH: deployment
         FOLDER: dist/github-community-sl
         BUILD_SCRIPT: npm install && npm run build -- --prod
