@@ -16,7 +16,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@releases/v2
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BASE_BRANCH: master
+        BASE_BRANCH: development
         BRANCH: master
         FOLDER: dist/github-community-sl
         BUILD_SCRIPT: npm install && npm run build -- --prod
