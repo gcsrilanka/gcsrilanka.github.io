@@ -5,7 +5,7 @@ on:
       - development
 env:
   AZURE_WEBAPP_NAME: Online-Store-Angular
-  AZURE_WEBAPP_PACKAGE_PATH: './dist/Online-Store-Angular'
+  AZURE_WEBAPP_PACKAGE_PATH: './dist/github-community-sl'
   NODE_VERSION: '10.x'
 
 jobs:
