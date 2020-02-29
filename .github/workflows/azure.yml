@@ -2,7 +2,7 @@ name: Deploy to Azure
 on:
   push:
     branches:
-      - master
+      - development
 env:
   AZURE_WEBAPP_NAME: Online-Store-Angular
   AZURE_WEBAPP_PACKAGE_PATH: './dist/Online-Store-Angular'
