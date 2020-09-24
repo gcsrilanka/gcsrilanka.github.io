@@ -65,7 +65,7 @@
     $('.counter').counterUp({
       time: 1000
     });  
-    
+ 
     /* Testimonials Carousel 
     ========================================================*/
     var owl = $("#testimonials");
