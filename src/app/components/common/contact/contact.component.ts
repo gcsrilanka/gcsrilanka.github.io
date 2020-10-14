@@ -15,10 +15,10 @@ export class ContactComponent implements OnInit {
     e.preventDefault();
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_664o6wc",
+        "template_sqhcmau",
         e.target as HTMLFormElement,
-        "YOUR_USER_ID"
+        "user_WyMiG19mwb6vTGJwqJq5C"
       )
       .then(
         (result: EmailJSResponseStatus) => {
