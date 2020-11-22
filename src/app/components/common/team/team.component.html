@@ -1,181 +1,54 @@
 <!-- Team Section Start -->
 <section id="team" class="section-padding text-center">
-    <div class="container">
-        <div class="section-header text-center">
-            <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Meet our team</h2>
-            <p>A desire to help and empower others between community contributors in technology.</p>
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">
+        Meet our team
+      </h2>
+      <p>
+        A desire to help and empower others between community contributors in
+        technology.
+      </p>
+    </div>
+    <div class="row">
+      <div *ngFor="let expert of experts" class="col-sm-6 col-md-6 col-lg-3">
+        <div
+          class="team-item text-center wow fadeInRight"
+          data-wow-delay="0.3s"
+        >
+          <div class="team-img">
+            <img class="img-fluid" src="{{ expert.avatarURL }}" />
+            <div class="team-overlay">
+              <div class="overlay-social-icon text-center">
+                <ul class="social-icons">
+                  <li>
+                    <a href="{{ expert.facebook }}" target="_blank"
+                      ><i class="lni-facebook-filled" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="{{ expert.twitter }}" target="_blank"
+                      ><i class="lni-twitter-filled" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="{{ expert.instagram }}" target="_blank"
+                      ><i class="lni-instagram-filled" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="info-text">
+            <h3>
+              <a href="#">{{ expert.name }}</a>
+            </h3>
+            <p>{{ expert.university }}</p>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <!-- Team Item Starts -->
-                <div class="team-item text-center wow fadeInRight" data-wow-delay="0.3s">
-                    <div class="team-img">
-                        <img class="img-fluid"
-                            src="https://avatars2.githubusercontent.com/u/7692626?s=400&u=7ca58ce79bcca4d59392781ca53d18e991455ea9&v=4">
-                        <div class="team-overlay">
-                            <div class="overlay-social-icon text-center">
-                                <ul class="social-icons">
-                                    <li><a href="https://www.facebook.com/isuruAb" target="_blank"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://twitter.com/isuruAb" target="_blank"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://www.instagram.com/isuruab_/" target="_blank"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-text">
-                        <h3><a href="#">Isuru Abeywardana</a></h3>
-                        <p>Campus Expert</p>
-                    </div>
-                </div>
-                <!-- Team Item Ends -->
-            </div>
-
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <!-- Team Item Starts -->
-                <div class="team-item text-center wow fadeInRight" data-wow-delay="0.6s">
-                    <div class="team-img">
-                        <img class="img-fluid"
-                            src="https://avatars0.githubusercontent.com/u/14261304?s=460&u=37438002975e3eaab00007447cf31345ac4bf1d3&v=4">
-                        <div class="team-overlay">
-                            <div class="overlay-social-icon text-center">
-                                <ul class="social-icons">
-                                    <li><a href="https://www.facebook.com/cloudypadmal" target="_blank"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://twitter.com/Cloudypadmal" target="_blank"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://www.instagram.com/cloudypadmal/" target="_blank"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-text">
-                        <h3><a href="#">Madhushanka Padmal</a></h3>
-                        <p>Campus Expert</p>
-                    </div>
-                </div>
-                <!-- Team Item Ends -->
-            </div>
-
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <!-- Team Item Starts -->
-                <div class="team-item text-center wow fadeInRight" data-wow-delay="0.9s">
-                    <div class="team-img">
-                        <img class="img-fluid"
-                            src="https://avatars2.githubusercontent.com/u/23298579?s=460&u=5239dd2c03f1040b97e595abc9b14c2ecde8b98e&v=4">
-                        <div class="team-overlay">
-                            <div class="overlay-social-icon text-center">
-                                <ul class="social-icons">
-                                    <li><a href="https://www.facebook.com/DilumMDeSilva" target="_blank"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://twitter.com/dilum_de" target="_blank"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://www.instagram.com/dilum1995/" target="_blank"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-text">
-                        <h3><a href="#">Dilum De Silva</a></h3>
-                        <p>Campus Expert</p>
-                    </div>
-                </div>
-                <!-- Team Item Ends -->
-            </div>
-
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <!-- Team Item Starts -->
-                <div class="team-item text-center wow fadeInRight" data-wow-delay="1.2s">
-                    <div class="team-img">
-                        <img class="img-fluid"
-                            src="https://avatars1.githubusercontent.com/u/19349315?s=460&u=8dd391383aab6b26e95a1cd178c330271a66cf25&v=4">
-                        <div class="team-overlay">
-                            <div class="overlay-social-icon text-center">
-                                <ul class="social-icons">
-                                    <li><a href="https://www.facebook.com/chamodshehanka" target="_blank"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://twitter.com/chamodshehanka" target="_blank"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://www.instagram.com/chamodshehanka/" target="_blank"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-text">
-                        <h3><a href="#">Chamod Perera</a></h3>
-                        <p>Campus Expert</p>
-                    </div>
-                </div>
-                <!-- Team Item Ends -->
-            </div>
-            
-            <div class="col-sm-6 col-md-6 col-lg-3"></div>
-
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <!-- Team Item Starts -->
-                <div class="team-item text-center wow fadeInRight" data-wow-delay="1.2s">
-                    <div class="team-img">
-                        <img class="img-fluid"
-                            src="https://avatars0.githubusercontent.com/u/37530024?s=460&u=ce4b000bf6a69c256dafe3cd80e8fdef9b97dc2d&v=4">
-                        <div class="team-overlay">
-                            <div class="overlay-social-icon text-center">
-                                <ul class="social-icons">
-                                    <li><a href="https://www.facebook.com/ahamed.safnaj" target="_blank"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://twitter.com/iamSafnaj" target="_blank"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://www.instagram.com/iam_safnaj/" target="_blank"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-text">
-                        <h3><a href="#">Ahamed Safnaj</a></h3>
-                        <p>Campus Expert</p>
-                    </div>
-                </div>
-                <!-- Team Item Ends -->
-            </div>
-
-            <div class="col-sm-6 col-md-6 col-lg-3">
-                <!-- Team Item Starts -->
-                <div class="team-item text-center wow fadeInRight" data-wow-delay="1.2s">
-                    <div class="team-img">
-                        <img class="img-fluid"
-                            src="https://avatars3.githubusercontent.com/u/24237873?s=460&u=c7b292cdb6bce5fa021fe1d0278de4437a24bdf2&v=4">
-                        <div class="team-overlay">
-                            <div class="overlay-social-icon text-center">
-                                <ul class="social-icons">
-                                    <li><a href="https://www.facebook.com/Amila.B.Gunarathne" target="_blank"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-text">
-                        <h3><a href="#">Amila Gunarathne</a></h3>
-                        <p>Campus Expert</p>
-                    </div>
-                </div>
-                <!-- Team Item Ends -->             
-            </div>
-          
-          <div class="col-sm-6 col-md-6 col-lg-3">
-                <!-- Team Item Starts -->
-                <div class="team-item text-center wow fadeInRight" data-wow-delay="1.2s">
-                    <div class="team-img">
-                        <img class="img-fluid"
-                            src="https://avatars3.githubusercontent.com/u/27503578?s=460&u=c7b292cdb6bce5fa021fe1d0278de4437a24bdf2&v=4">
-                        <div class="team-overlay">
-                            <div class="overlay-social-icon text-center">
-                                <ul class="social-icons">
-                                    <li><a href="https://www.facebook.com/hiranSandman"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://twitter.com/hirantha_peiris" target="_blank"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-text">
-                        <h3><a href="#">Hirantha Peiris</a></h3>
-                        <p>Campus Expert</p>
-                    </div>
-                </div>
-                <!-- Team Item Ends -->
-            </div>
       </div>
     </div>
+  </div>
 </section>
 <!-- Team Section End -->
