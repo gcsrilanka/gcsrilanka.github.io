@@ -1,0 +1,74 @@
+{
+  "experts": [
+    {
+      "id": 1,
+      "name": "Isuru Abeywardana",
+      "university": "Sabaragamuwa University",
+      "avatarURL": "https://avatars2.githubusercontent.com/u/7692626",
+      "github": "https://www.github.com/isuruAb",
+      "facebook": "https://www.facebook.com/isuruAb",
+      "instagram": "https://www.instagram.com/isuruab_/",
+      "twitter": "https://twitter.com/isuruAb"
+    },
+    {
+      "id": 2,
+      "name": "Madhushanka Padmal",
+      "university": "University of Moratuwa",
+      "avatarURL": "https://avatars0.githubusercontent.com/u/14261304",
+      "github": "https://github.com/CloudyPadmal",
+      "facebook": "https://www.facebook.com/cloudypadmal",
+      "instagram": "https://www.instagram.com/cloudypadmal",
+      "twitter": "https://twitter.com/Cloudypadmal"
+    },
+    {
+      "id": 3,
+      "name": "Dilum De Silva",
+      "university": "University of Webminister",
+      "avatarURL": "https://avatars2.githubusercontent.com/u/23298579",
+      "github": "https://github.com/dilum1995",
+      "facebook": "https://www.facebook.com/DilumMDeSilva",
+      "instagram": "https://www.instagram.com/dilum1995",
+      "twitter": "https://twitter.com/dilum_de"
+    },
+    {
+      "id": 4,
+      "name": "Chamod Perera",
+      "university": "SLIIT | Wayamba University",
+      "avatarURL": "https://avatars1.githubusercontent.com/u/19349315",
+      "github": "https://github.com/Shehanka",
+      "facebook": "https://www.facebook.com/chamodshehanka",
+      "instagram": "https://www.instagram.com/chamodshehanka/",
+      "twitter": "https://twitter.com/chamodshehanka"
+    },
+    {
+      "id": 5,
+      "name": "Ahamed Safnaj",
+      "university": "SLIIT",
+      "avatarURL": "https://avatars0.githubusercontent.com/u/37530024",
+      "github": "https://github.com/Safnaj",
+      "facebook": "https://www.facebook.com/ahamed.safnaj",
+      "instagram": "https://www.instagram.com/iam_safnaj",
+      "twitter": "https://twitter.com/iamSafnaj"
+    },
+    {
+      "id": 6,
+      "name": "Amila Gunarathne",
+      "university": "Sabaragamuwa University",
+      "avatarURL": "https://avatars3.githubusercontent.com/u/24237873",
+      "github": "https://github.com/amilabgunarathne",
+      "facebook": "https://www.facebook.com/Amila.B.Gunarathne",
+      "instagram": "https://www.instagram.com/",
+      "twitter": "https://twitter.com/"
+    },
+    {
+      "id": 7,
+      "name": "Hirantha Peiris",
+      "university": "Ruhuna University",
+      "avatarURL": "https://avatars3.githubusercontent.com/u/27503578",
+      "github": "ttps://github.com/hiranthaPeiris",
+      "facebook": "https://www.facebook.com/hiranSandman",
+      "instagram": "https://www.instagram.com/",
+      "twitter": "https://twitter.com/hirantha_peiris"
+    }
+  ]
+}
