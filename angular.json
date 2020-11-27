@@ -18,7 +18,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -38,8 +38,6 @@
               ],
               "optimization": true,
               "outputHashing": "all",
-              "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
@@ -120,6 +118,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "github-community-sl"
+    }
+  },
+  "defaultProject": "github-community-sl",
+  "cli": {
+    "analytics": "68dd1393-d241-4ad0-87df-dc4ab06d305a"
+  }
 }
