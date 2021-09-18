@@ -65,10 +65,20 @@
       "name": "Hirantha Peiris",
       "university": "Ruhuna University",
       "avatarURL": "https://avatars3.githubusercontent.com/u/27503578",
-      "github": "ttps://github.com/hiranthaPeiris",
+      "github": "https://github.com/hiranthaPeiris",
       "facebook": "https://www.facebook.com/hiranSandman",
       "instagram": "https://www.instagram.com/",
       "twitter": "https://twitter.com/hirantha_peiris"
+    },
+    {
+      "id": 8,
+      "name": "Suvin Nimnaka",
+      "university": "University of Colombo",
+      "avatarURL": "https://avatars.githubusercontent.com/u/10671497?v=4",
+      "github": "https://github.com/Suvink",
+      "facebook": "https://www.facebook.com/tikirimaarie/",
+      "instagram": "https://www.instagram.com/theatticuss/",
+      "twitter": "https://twitter.com/tikirimaarie"
     }
   ]
 }
