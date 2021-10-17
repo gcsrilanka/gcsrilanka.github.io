@@ -33,10 +33,3 @@
     -webkit-transition: all .6s ease;
     
 }
-  i.lni.lni-chevron-right {
-    font-size: 12px;
-    padding-left: 10px;
-}
-i.lni.lni-chevron-right:hover {
-    color: #3d60f4;
-}
