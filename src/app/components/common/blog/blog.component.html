@@ -1,6 +1,5 @@
 <!-- Blog Section -->
-<section id="blog" class="section-padding">
-    <!-- Container Starts -->
+<!-- <section id="blog" class="section-padding">
     <div class="container">
         <div class="section-header text-center">
             <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Latest blog</h2>
@@ -9,7 +8,6 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 blog-item">
-                <!-- Blog Item Starts -->
                 <div class="blog-item-wrapper wow fadeInLeft" data-wow-delay="0.3s">
                     <div class="blog-item-img">
                         <a href="single-post.html">
@@ -27,11 +25,9 @@
                         <a href="single-post.html" class="btn btn-common btn-rm">Read More</a>
                     </div>
                 </div>
-                <!-- Blog Item Wrapper Ends-->
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 blog-item">
-                <!-- Blog Item Starts -->
                 <div class="blog-item-wrapper wow fadeInUp" data-wow-delay="0.6s">
                     <div class="blog-item-img">
                         <a href="single-post.html">
@@ -49,11 +45,9 @@
                         <a href="single-post.html" class="btn btn-common btn-rm">Read More</a>
                     </div>
                 </div>
-                <!-- Blog Item Wrapper Ends-->
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 blog-item">
-                <!-- Blog Item Starts -->
                 <div class="blog-item-wrapper wow fadeInRight" data-wow-delay="0.3s">
                     <div class="blog-item-img">
                         <a href="single-post.html">
@@ -71,9 +65,18 @@
                         <a href="single-post.html" class="btn btn-common btn-rm">Read More</a>
                     </div>
                 </div>
-                <!-- Blog Item Wrapper Ends-->
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- blog Section End -->
+
+
+<div class="container gallery">
+    <h1 class="text-center py-5">Gallery</h1>
+    <div class="row">
+        <div *ngFor="let img of galleryImages; let index=index"  class="col-lg-3 pt-3 pb-3">
+                <img [src]="img['path']" (click)="showGallery(index)"  class="img-fluid">
+        </div>
+    </div>
+</div>

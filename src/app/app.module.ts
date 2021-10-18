@@ -17,6 +17,7 @@ import { CounterComponent } from './components/common/counter/counter.component'
 import { ServicesComponent } from './components/common/services/services.component';
 import { FeatureComponent } from './components/common/feature/feature.component';
 import { PromoComponent } from './components/common/promo/promo.component';
+import { IvyGalleryModule } from 'angular-gallery';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { PromoComponent } from './components/common/promo/promo.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    IvyGalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
