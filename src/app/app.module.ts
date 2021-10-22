@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +19,8 @@ import { ServicesComponent } from './components/common/services/services.compone
 import { FeatureComponent } from './components/common/feature/feature.component';
 import { PromoComponent } from './components/common/promo/promo.component';
 import { IvyGalleryModule } from 'angular-gallery';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,13 @@ import { IvyGalleryModule } from 'angular-gallery';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    IvyGalleryModule
+    IvyGalleryModule,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot({
+      preventDuplicates: true,
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

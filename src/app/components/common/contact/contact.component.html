@@ -4,34 +4,47 @@
         <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">
             <div class="col-md-6 col-lg-6 col-sm-12">
                 <div class="contact-block">
-                    <form class="contact-form" (submit)="sendEmail($event)" id="contactForm">
+                    <form class="contact-form" [formGroup]="registerForm" (ngSubmit)="onSubmit($event)" id="contactForm">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="user_name" placeholder="Name"
-                                        required data-error="Please enter your name">
+                                         data-error="Please enter your name" formControlName="name" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.name.errors }">
                                     <div class="help-block with-errors"></div>
+                                    <div *ngIf="submitted && f.name.errors" class="invalid-feedback">
+                                        <div *ngIf="f.name.errors.required">Name is required</div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <input type="text" placeholder="Email" id="email" class="form-control" name="user_email"
-                                        required data-error="Please enter your email">
+                                         data-error="Please enter your email" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }">
                                     <div class="help-block with-errors"></div>
+                                    <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                                        <div *ngIf="f.email.errors.required">Email is required</div>
+                                        <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <input type="text" placeholder="Subject" id="msg_subject" class="form-control" name="subject"
-                                        required data-error="Please enter your subject">
+                                         data-error="Please enter your subject" formControlName="subject" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.subject.errors }">
                                     <div class="help-block with-errors"></div>
+                                    <div *ngIf="submitted && f.subject.errors" class="invalid-feedback">
+                                        <div *ngIf="f.subject.errors.required">Subject is required</div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <textarea placeholder="Your Message" id="message" class="form-control" name="message"  rows="5"
-                                        data-error="Write your message" required></textarea>
+                                        data-error="Write your message" formControlName="message" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.message.errors }" ></textarea>
                                     <div class="help-block with-errors"></div>
+                                    <div *ngIf="submitted && f.message.errors" class="invalid-feedback">
+                                        <div *ngIf="f.message.errors.required">Message is required</div>
+                                    </div>
                                 </div>
                                 <div class="submit-button">
                                     <button class="btn btn-common" id="form-submit" type="submit" value="Send">Send Message</button>
