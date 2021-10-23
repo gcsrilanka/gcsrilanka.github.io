@@ -1,14 +1,14 @@
-# Github Community SL
+# GitHub Community Sri Lanka
 
 
 ## Technology Stack
 
-<img width="900" alt="Github Community Sri Lanka Tech" src="https://i.imgur.com/aALZqh9.jpeg">
+<img width="900" alt="GitHub Community Sri Lanka" src="https://i.imgur.com/aALZqh9.jpeg">
 
 ## Contributors
 
 <a href="https://github.com/GitHubExperts-LK/GitHubExperts-LK.github.io/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=GitHubExperts-LK/GitHubExperts-LK.github.io" />
+  <img src="https://contrib.rocks/image?repo=GitHubExperts-LK/GitHubExperts-LK.github.io" alt="GitHub Community Sri Lanka Contributors" />
 </a>
 
 ## Contribution Guide
