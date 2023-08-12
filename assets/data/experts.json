@@ -1,0 +1,124 @@
+{
+  "experts": [
+    {
+      "id": 1,
+      "name": "Isuru Abeywardana",
+      "university": "Sabaragamuwa University",
+      "avatarURL": "https://avatars2.githubusercontent.com/u/7692626",
+      "github": "https://www.github.com/isuruAb",
+      "facebook": "https://www.facebook.com/isuruAb",
+      "instagram": "https://www.instagram.com/isuruab_/",
+      "twitter": "https://twitter.com/isuruAb"
+    },
+    {
+      "id": 2,
+      "name": "Madhushanka Padmal",
+      "university": "University of Moratuwa",
+      "avatarURL": "https://avatars0.githubusercontent.com/u/14261304",
+      "github": "https://github.com/CloudyPadmal",
+      "facebook": "https://www.facebook.com/cloudypadmal",
+      "instagram": "https://www.instagram.com/cloudypadmal",
+      "twitter": "https://twitter.com/Cloudypadmal"
+    },
+    {
+      "id": 3,
+      "name": "Dilum De Silva",
+      "university": "University of Westminster",
+      "avatarURL": "https://avatars2.githubusercontent.com/u/23298579",
+      "github": "https://github.com/dilum1995",
+      "facebook": "https://www.facebook.com/DilumMDeSilva",
+      "instagram": "https://www.instagram.com/dilum1995",
+      "twitter": "https://twitter.com/dilum_de"
+    },
+    {
+      "id": 4,
+      "name": "Chamod Perera",
+      "university": "SLIIT | Wayamba University",
+      "avatarURL": "https://avatars1.githubusercontent.com/u/19349315",
+      "github": "https://github.com/Shehanka",
+      "facebook": "https://www.facebook.com/chamodshehanka",
+      "instagram": "https://www.instagram.com/chamodshehanka/",
+      "twitter": "https://twitter.com/chamodshehanka"
+    },
+    {
+      "id": 5,
+      "name": "Ahamed Safnaj",
+      "university": "SLIIT",
+      "avatarURL": "https://avatars0.githubusercontent.com/u/37530024",
+      "github": "https://github.com/Safnaj",
+      "facebook": "https://www.facebook.com/ahamed.safnaj",
+      "instagram": "https://www.instagram.com/iam_safnaj",
+      "twitter": "https://twitter.com/iamSafnaj"
+    },
+    {
+      "id": 6,
+      "name": "Amila Gunarathne",
+      "university": "Sabaragamuwa University",
+      "avatarURL": "https://avatars3.githubusercontent.com/u/24237873",
+      "github": "https://github.com/amilabgunarathne",
+      "facebook": "https://www.facebook.com/Amila.B.Gunarathne",
+      "instagram": "https://www.instagram.com/amilabgunarathne/",
+      "twitter": "https://twitter.com/abgunarathne"
+    },
+    {
+      "id": 7,
+      "name": "Hirantha Peiris",
+      "university": "Ruhuna University",
+      "avatarURL": "https://avatars3.githubusercontent.com/u/27503578",
+      "github": "https://github.com/hiranthaPeiris",
+      "facebook": "https://www.facebook.com/hiranSandman",
+      "instagram": "https://www.instagram.com/hiransandman/",
+      "twitter": "https://twitter.com/hirantha_peiris"
+    },
+    {
+      "id": 8,
+      "name": "Suvin Nimnaka",
+      "university": "University of Colombo",
+      "avatarURL": "https://avatars.githubusercontent.com/u/10671497?v=4",
+      "github": "https://github.com/Suvink",
+      "facebook": "https://www.facebook.com/tikirimaarie/",
+      "instagram": "https://www.instagram.com/theatticuss/",
+      "twitter": "https://twitter.com/tikirimaarie"
+    },
+    {
+      "id": 9,
+      "name": "Lahiru Udawaththa",
+      "university": "NSBM Green University",
+      "avatarURL": "https://avatars.githubusercontent.com/u/45584797?v=4",
+      "github": "https://github.com/lahiruroot",
+      "facebook": "https://www.facebook.com/lahiruudawathhta98",
+      "instagram": "https://www.instagram.com/lahiru_udawaththa/",
+      "twitter": "https://twitter.com/lahiruudawatht2"
+    },
+     {
+      "id": 10,
+      "name": "Amanda Siriwardena",
+      "university": "NSBM Green University",
+      "avatarURL": "https://avatars.githubusercontent.com/u/64420661?v=4",
+      "github": "https://github.com/AmandaS98",
+      "facebook": "https://www.facebook.com/amanda.siriwardena.5",
+      "instagram": "https://www.instagram.com/mandy_siriwardena/",
+      "twitter": "https://twitter.com/AmandaSiriward1"
+    },
+    {
+      "id": 11,
+      "name": "Yasith Samaradivakara",
+      "university": "University of Colombo",
+      "avatarURL": "https://avatars.githubusercontent.com/u/62166536?v=4",
+      "github": "https://github.com/YasithSam",
+      "facebook": "https://www.facebook.com/yasith.samaradivakara.5/",
+      "instagram": "https://www.instagram.com/yasithsam/",
+      "twitter": "https://twitter.com/YasithSam7"
+    },
+    {
+      "id": 12,
+      "name": "Avin Indrasoma",
+      "university": "National Institute of Business Management",
+      "avatarURL": "https://avatars.githubusercontent.com/u/66766682?v=4",
+      "github": "https://github.com/avincodes",
+      "facebook": "https://www.facebook.com",
+      "instagram": "https://www.instagram.com/avinhere.me/",
+      "twitter": "https://twitter.com/avinhere"
+    }
+  ]
+}
